@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css\bootstrap.min.css" rel="stylesheet"integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link href="css\style.css" rel="stylesheet">
+    <link media="all" type="text/css" rel="stylesheet" href="./css/frontend.css?id=e912eea510ee1267abc6">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" />
+
+    
+</head>
+<body>
+    <div class="main">
+        <!-- Include the navbar.html file -->
+<div id="navbar-placeholder"></div>
+<script>
+  fetch('navbar.html')
+    .then(response => response.text())
+    .then(data => {
+      const navbarPlaceholder = document.getElementById('navbar-placeholder');
+      navbarPlaceholder.innerHTML = data;
+    })
+    .catch(error => console.error('Error fetching navbar.html:', error));
+</script>
+
+
+<div class="form-section-flowbase">
+    <div class="container">
+      <div class="form-block">
+        <div class="w-layout-grid form-grid">
+          <div class="form-column">
+            <div class="title-wrap">
+              <h1 class="h1-white">Get a quote</h1>
+              <p class="paragraph-form">Fill up the form and our team will get back to you within 24 hours.</p>
+            </div>
+            <div class="details-wrap">
+              <a href="#" class="icon-wrap w-inline-block">
+                <img src="https://assets.website-files.com/6084b477cc9b7ff373d0060c/6084b5989c0f320fe322241f_Icon%20Blue%20phone.svg" loading="lazy" alt="" class="contact-icon" />
+                <div>+0111111111</div>
+              </a>
+              <a href="#" class="icon-wrap w-inline-block">
+                <img src="https://assets.website-files.com/6084b477cc9b7ff373d0060c/6084b5989c0f32bc5122241a_Icon%20Blue%20Mail.svg" loading="lazy" alt="" class="contact-icon" />
+                <div>support@hehe.com</div>
+              </a>
+              <a href="#" class="icon-wrap w-inline-block">
+                <img src="https://assets.website-files.com/6084b477cc9b7ff373d0060c/6084b5989c0f32f0ab222420_Icon%20Blue%20Map.svg" loading="lazy" alt="" class="contact-icon" />
+                <div>103 Street, Grove Ave, QLD</div>
+              </a>
+            </div>
+            <div class="social-wrap">
+              <a href="#" class="social-link w-inline-block">
+                <img src="https://assets.website-files.com/6084b477cc9b7ff373d0060c/6084b5989c0f320b96222419_Facebook%20Icon%20(1).svg" loading="lazy" alt="" />
+              </a>
+              <a href="#" class="social-link w-inline-block">
+                <img src="https://assets.website-files.com/6084b477cc9b7ff373d0060c/6084b5989c0f32198122241e_Twitter%20Icon.svg" loading="lazy" alt="" />
+              </a>
+              <a href="#" class="social-link w-inline-block">
+                <img src="https://assets.website-files.com/6084b477cc9b7ff373d0060c/6084b5989c0f32820322241d_Instagram%20Icon.svg" loading="lazy" alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="form-wrap">
+            <div class="form-block-flowbase w-form">
+              <form id="email-form" name="email-form" data-name="Email Form" method="get" class="form">
+                <div class="field-wrap">
+                  <label for="name" class="field-label">Your Name</label>
+                  <div class="input-icon-wrapper">
+                    <input type="text" class="text-field w-input" maxlength="256" name="Name-Field" data-name="Name Field" placeholder="Your Name" id="Name-Field" />
+                    <img src="https://assets.website-files.com/6084b477cc9b7ff373d0060c/6084b5989c0f3280d722241b_Icon%20Name.svg" loading="lazy" alt="" class="input-icon" />
+                  </div>
+                </div>
+                <div class="field-wrap">
+                  <label for="name" class="field-label">Mail</label>
+                  <div class="input-icon-wrapper">
+                    <input type="email" class="text-field w-input" maxlength="256" name="Email-Field" data-name="Email Field" placeholder="Your Email" id="Email-Field" />
+                    <img src="https://assets.website-files.com/6084b477cc9b7ff373d0060c/6084b5989c0f323e2f22241c_Icon%20Mail.svg" loading="lazy" alt="" class="input-icon" />
+                  </div>
+                </div>
+                <div class="field-wrap">
+                  <label for="Field-Large" class="field-label">Message</label>
+                  <textarea name="Field-Large" maxlength="5000" id="Field-Large" placeholder="Enter your message..." data-name="Field Large" class="text-field-large w-input"></textarea>
+                </div>
+                <div class="button-wrap-right">
+                  <input type="submit" value="Send Message" data-wait="Please wait..." class="button-form w-button" />
+                </div>
+              </form>
+              <div class="w-form-done">
+                <div>Thank you! Your submission has been received!</div>
+              </div>
+              <div class="w-form-fail">
+                <div>Oops! Something went wrong while submitting the form.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+    <div id="footer-placeholder"></div>
+<script>
+  fetch('footer.html')
+    .then(response => response.text())
+    .then(data => {
+      const footerPlaceholder = document.getElementById('footer-placeholder');
+      footerPlaceholder.innerHTML = data;
+    })
+    .catch(error => console.error('Error fetching footer.html:', error));
+</script>
+
+    </div>
+    
+</body>
+</html>

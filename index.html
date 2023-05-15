@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css\bootstrap.min.css" rel="stylesheet"integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link href="css\style.css" rel="stylesheet">
+    <link media="all" type="text/css" rel="stylesheet" href="./css/frontend.css?id=e912eea510ee1267abc6">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" />
+
+    
+</head>
+<body>
+    <div class="main">
+        <!-- Include the navbar.html file -->
+<div id="navbar-placeholder"></div>
+<script>
+  fetch('navbar.html')
+    .then(response => response.text())
+    .then(data => {
+      const navbarPlaceholder = document.getElementById('navbar-placeholder');
+      navbarPlaceholder.innerHTML = data;
+    })
+    .catch(error => console.error('Error fetching navbar.html:', error));
+</script>
+
+    
+    <div id="footer-placeholder"></div>
+<script>
+  fetch('footer.html')
+    .then(response => response.text())
+    .then(data => {
+      const footerPlaceholder = document.getElementById('footer-placeholder');
+      footerPlaceholder.innerHTML = data;
+    })
+    .catch(error => console.error('Error fetching footer.html:', error));
+</script>
+
+    </div>
+    
+</body>
+</html>
