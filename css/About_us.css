@@ -77,10 +77,13 @@
 
 
 .about-full-height-area {
-    padding-Top: 10vh;
     padding-bottom: 10vh;
     justify-content: center;
     position: relative;
+}
+
+.about-full-height-area-extra{
+    padding-top: 20vh;
 }
 
 svg#mission,  span.box-top-logo{
