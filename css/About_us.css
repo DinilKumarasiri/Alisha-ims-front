@@ -1,14 +1,14 @@
 .excellence {
     display: flex;
     position: relative;
-    padding: 10vh;
+    /* padding: 10vh; */
     height: 70vh;
     align-items: center;
 }
 
 .excellence-inner-wrapper {
     /* background-image: url('assets/images/about/about-bg-one.png'); */
-    background-color: #9F9F9F;
+    background-color: black;
     display: flex;
     justify-content: end;
     background-size: cover;
@@ -77,7 +77,8 @@
 
 
 .about-full-height-area {
-    padding: 10vh;
+    padding-Top: 10vh;
+    padding-bottom: 10vh;
     justify-content: center;
     position: relative;
 }
@@ -124,6 +125,7 @@ img#contact-banner {
     width: 30%;
     height: 100%;
 }
+
 
 /*small mobile-view*/
 @media screen and (max-width: 375px) {
