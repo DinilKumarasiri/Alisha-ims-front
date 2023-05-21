@@ -7,6 +7,7 @@ body {
     border-radius: 8px;
     padding: 8px 20px;
     color: white;
+    
 }
 
 .btn-tt-1 {
@@ -37,7 +38,7 @@ body {
     letter-spacing: 0.35em;
     color: inherit !important;
     line-height: normal;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 500;
 }
 
@@ -275,12 +276,19 @@ ul li a {
         margin-left: auto;
         margin-right: 1rem;
     }
+    .auton-heading {
+        letter-spacing: 0.20em;
+        color: inherit !important;
+        line-height: normal;
+        font-size: 15px;
+        font-weight: 500;
+    }
 }
 
 @media(max-width: 430px) {
-    .bg-whiteings {
+    /* .bg-whiteings {
         background-color: white;
-    }
+    } */
 
     .font-sixe-set-head {
         font-size: 10px;

@@ -256,7 +256,7 @@ li.nav-item {
         display: none;
     }
     #navigation {
-        width: 95%;
+        width: 100%;
     }
     a.navbar-brand {
         width: 150px;
