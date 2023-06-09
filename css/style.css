@@ -188,7 +188,7 @@ body {
 }
 
 .bg-img-45 {
-    background-image: url(../assets/images/fileauto.png);
+    background-image: url(../assets/images/rs=w_1534\,m.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -325,3 +325,16 @@ ul li a {
         position: inherit;
     }
 }
+
+
+/* testing  css */
+
+/* Create two equal columns that floats next to each other */
+.columnpartner {
+    float: left;
+    width: 20%;
+    padding: 10px; 
+    height: 100px; /* Should be removed. Only for demonstration */
+  }
+  
+ 
