@@ -278,6 +278,16 @@ ul li a {
         font-size: 15px;
         font-weight: 500;
     }
+    .columnpartner {
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+    
+      .img-set-noe {
+        max-width: 100%;
+        height: auto;
+      }
 }
 
 @media(max-width: 430px) {
