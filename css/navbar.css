@@ -268,7 +268,8 @@ li.nav-item {
     }
 
     #navbarSupportedContent {
-        background: rgb(23, 129, 167);
+        /* background: rgb(23, 129, 167); */
+        background: linear-gradient(to bottom, rgb(0, 123, 255), rgb(2, 30, 60));
         color: #fff;
         padding: 15px;
         margin-left: -15px;

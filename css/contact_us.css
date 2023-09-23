@@ -33,20 +33,20 @@
    
    .form-block {
     /* margin-top: 5%; */
-     display: -webkit-box;
-     display: -webkit-flex;
-     display: -ms-flexbox;
-     display: flex;
-     min-height: 440px;
-     padding: 60px;
-     -webkit-box-align: center;
-     -webkit-align-items: center;
-     -ms-flex-align: center;
-     align-items: center;
-     border-radius: 16px;
-     background-color: #0b0b0b;
-   }
-   
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: 440px;
+    padding: 60px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 16px;
+    background: linear-gradient(to bottom, rgb(20, 67, 118), rgb(15, 82, 153));
+}
+
    .h1-white {
      margin-bottom: 16px;
      color: #fff;
@@ -64,7 +64,8 @@
    .form-wrap {
      padding: 40px;
      border-radius: 16px;
-     background-color: #fff;
+     /* background-color: #cee0f0; */
+     background: linear-gradient(to bottom, rgb(253, 253, 253), rgb(216, 235, 255));
    }
    
    .field-label {
@@ -144,7 +145,7 @@
      -webkit-align-items: center;
      -ms-flex-align: center;
      align-items: center;
-     background-color: #ecf3fe;
+     background-color: #ffffff;
    }
    
    .social-wrap {

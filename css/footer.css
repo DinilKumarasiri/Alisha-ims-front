@@ -1,4 +1,10 @@
 /*footer*/
+/* Add this code to your footer.css file */
+
+.footer-main {
+    background: linear-gradient(to bottom, rgb(76, 154, 235), rgb(15, 82, 153));
+}
+
 .footer-list {
     list-style: none;
     padding-left: 0;
@@ -103,7 +109,7 @@ p#copyright {
     font-size: 0.8rem;
     flex-shrink: 0;
     width: 100%;
-    color: #000000;
+    color: #ffffff;
 }
 
 @media screen and (max-width: 767px) {
@@ -162,3 +168,23 @@ p#copyright {
 span#powered {
     margin-left: 5%; /* Adjust the value as needed */
 }
+
+
+  @media (max-width: 767px) {
+    .desktop {
+      display: none;
+    }
+    .mobile {
+      display: block;
+    }
+  }
+  @media (min-width: 768px) {
+    .desktop {
+      display: block;
+    }
+    .mobile {
+      display: none;
+    }
+  }
+
+  

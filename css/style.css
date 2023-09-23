@@ -53,9 +53,9 @@ body {
     /* background-repeat: no-repeat; */
 }
 
-.mrgin-botm {
-    /* margin-bottom: 28rem; */
-}
+/* .mrgin-botm {
+    margin-bottom: 28rem;
+} */
 
 .container- {
 
@@ -237,7 +237,7 @@ ul {
 }
 
 ul li a {
-    color: #565555 !important;
+    color: #ffffff !important;
 }
 
 .header {
@@ -348,3 +348,4 @@ ul li a {
   }
   
  
+
